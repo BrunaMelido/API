@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>W3</h1>
+    <form action="/" method="post">
+        <input type="number" name="agencia" id="agencia" placeholder="Agencia"> <br>
+        <input type="number" name="conta" placeholder="Conta"><br>
+        <input type="number" name="cpf" placeholder="CPF"><br>
+        <input type="date" name="dataDeNascimento"><br>
+        <input type="text" name="nomeCompleto" placeholder="Nome Completo"><br>
+        <select name="bandeiraDoCartao" id="bandeiraDoCartao"><br>
+            <option value="" disabled selected>Bandeira do Cartão</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+        </select><br>
+        <select name="tipoDoCartao" id="tipoDoCartao">
+            <option value="" disabled selected>Tipo do Cartão</option>
+            <option value="platinum">PLATINUM</option>
+            <option value="gold">GOLD</option>
+            <option value="blckDiamond">BLACK DIAMOND</option>
+        </select><br>
+        <select name="dataDeVencimento" id="dataDeVencimento">
+            <option value="" disabled selected>Data de Vencimento</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="25">25</option>
+        </select><br>
+        <input type="submit" value="Enviar" >
+    </form>
+</body>
+</html>
